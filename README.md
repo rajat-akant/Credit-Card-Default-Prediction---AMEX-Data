@@ -4,7 +4,13 @@ Credit default prediction is central to managing risk in a consumer lending busi
 
 However, how do the card issuers be assured that the charged payment will be received back? That’s a complex problem with many existing solutions—and even more potential improvements, which has been the primary objective of this Project.
 
-In this project, I have leveraged an industrial scale data set to build a machine learning model. Training and validation datasets include time-series behavioural data and anonymized customer profile information. Before arriving on the machine learning part, the following prerequisites have been performed:
+In this project, I have leveraged an industrial scale data set to build a machine learning model.
+
+Dataset Link (csv Data): https://www.kaggle.com/competitions/amex-default-prediction/data 
+
+Dataset Link (FTR Data): https://www.kaggle.com/datasets/munumbutt/amexfeather
+
+Training and validation datasets include time-series behavioural data and anonymized customer profile information. Before arriving on the machine learning part, the following prerequisites have been performed:
 
 1) Data Ingestion on MongoDB via Python
 2) Sample Data Extraction from MongoDB using python.
